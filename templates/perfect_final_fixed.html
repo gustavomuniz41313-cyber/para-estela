@@ -52,6 +52,8 @@
             box-shadow: 0 25px 50px rgba(214, 51, 108, 0.3);
             width: 90%;
             max-width: 450px;
+            max-height: 90vh;
+            overflow-y: auto;
             z-index: 10;
             transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
@@ -203,9 +205,12 @@
         #no { background: #f1f3f5; color: #adb5bd; }
 
         @media (max-width: 600px) {
-            .card { padding: 20px; }
+            .card { padding: 20px; max-height: 85vh; }
             h1 { font-size: 1.8em; }
             .photo-container { height: 90px; }
+            .final-video { max-width: 220px; }
+            .happy-birthday-text { font-size: 2em; }
+            .letter-text { padding: 20px; font-size: 1.1em; }
         }
 
         #heartRain {
