@@ -1,0 +1,33 @@
+===========================================
+COMO ABRIR O SITE - LEIA COM ATENCAO
+===========================================
+
+PARA VER FOTOS E VIDEO, ABRA O ARQUIVO CORRETO:
+
+1. NA PASTA PRINCIPAL (onde esta este arquivo):
+   -> ABRA: "index.html"
+   
+   NAO ABRA A PASTA "templates"!
+   
+2. O arquivo "index.html" esta na MESMA PASTA que a pasta "static".
+   Assim as fotos e video carregam automaticamente.
+
+3. Se voce abrir o arquivo errado (da pasta templates),
+   as fotos NAO vao aparecer!
+
+===========================================
+RESUMO:
+===========================================
+✅ CERTO: Abrir "index.html" na pasta principal
+❌ ERRADO: Abrir arquivos da pasta "templates"
+
+===========================================
+COMO MANDAR PARA ALGUEM:
+===========================================
+- Compacte a pasta inteira em ZIP
+- Mande o ZIP
+- A pessoa extrai e abre "index.html"
+
+OU use pelo navegador (se estiver no GitHub Pages):
+https://gustavomuniz41313-cyber.github.io/para-estela/
+

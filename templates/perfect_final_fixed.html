@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="manifest" href="/static/manifest.json">
+    <link rel="manifest" href="../static/manifest.json">
     <meta name="theme-color" content="#d6336c">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/static/sw.js');
+          navigator.serviceWorker.register('../static/sw.js');
         });
       }
     </script>
@@ -249,11 +249,11 @@
     <script>
         // === LOCAL STATIC FILES ===
         const IMG_URLS = {
-            foto1: '/static/foto1.jpeg.jpg',
-            foto2: '/static/foto2.jpeg.jpg',
-            foto3: '/static/foto3.jpeg.jpg',
-            foto4: '/static/foto4.jpeg.jpeg',
-            video: '/static/video.mp4.mp4'
+            foto1: '../static/foto1.jpeg.jpg',
+            foto2: '../static/foto2.jpeg.jpg',
+            foto3: '../static/foto3.jpeg.jpg',
+            foto4: '../static/foto4.jpeg.jpeg',
+            video: '../static/video.mp4.mp4'
         };
 
         const noBtn = document.getElementById('no');
